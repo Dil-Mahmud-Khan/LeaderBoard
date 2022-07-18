@@ -117,3 +117,29 @@ h2 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
+
+@media (max-width:688px) {
+
+    .players,
+    .allcourse {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .blog {
+        display: block;
+    }
+
+}
+
+@media (max-width:992px) {
+
+    .players,
+    .allcourse {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .blog {
+        display: block;
+    }
+
+}
