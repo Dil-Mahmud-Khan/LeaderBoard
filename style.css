@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans:wght@300&family=Poppins:wght@300;400&display=swap');
+
+body{
+    font-family: 'Great Vibes', cursive;
+
+    font-family: 'Open Sans', sans-serif;
+
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(219, 218, 215);
+}
+.section-title{
+    font-size: 24px;
+    color: blueviolet;
+    padding-left:  43px;
+}
+.player img{
+    width: 46px;
+    height: 46px;
+    
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 15px;
+}
+.top-player-container{
+    width: 800px;
+    height: 600px;
+    background-color: azure;
+}
+.player{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.plname{
+    margin: 5px;
+    font-size: 18px;
+} 
+hr{
+    border: 1px solid rgb(202, 200, 200);
+}
